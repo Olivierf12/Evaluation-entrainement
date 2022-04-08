@@ -11,7 +11,6 @@ Texte => Maven Pro
 
 https://docs.emmet.io/cheat-sheet/
 https://excalidraw.com/
-https://code.visualstudio.com/
 
 Tous les éléments HTML:
 https://developer.mozilla.org/fr/docs/Web/HTML/Element

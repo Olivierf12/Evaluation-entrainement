@@ -10,3 +10,71 @@ font-family: 'Arimo', sans-serif;
 font-family: 'Maven Pro', sans-serif;
 font-family: 'Rambla', sans-serif; )
 */
+
+
+header {
+    height: 200px;
+    background-color: #ddbc95;
+    font-family: Arimo, sans-serif;
+}
+
+nav {
+    height: 100px;
+    font-family: Arimo, sans-serif;
+    margin-top: 5%;
+}
+
+
+
+.containerMain {
+    padding: 2%;
+    font-family: Rambla, sans-serif;
+    text-align: justify;  
+}
+
+body {
+    background-color: #cdcdc0;
+}
+
+.footerStyle {
+    
+    background-color: #b38867;
+    text-align: center;
+    padding: 5%;
+    font-size: 0.8em;
+}
+
+.titlestyle {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.carousel {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+    .card {
+      width: 35%;
+      margin-top: 40px;
+    }
+
+    .bgcolorevent {
+        background-image: url(images/image-de-font-2.png);
+        background-repeat: no-repeat;
+        background-position:50% 50%;
+    }
+  }
