@@ -13,41 +13,57 @@ font-family: 'Rambla', sans-serif; )
 
 
 header {
-    height: 200px;
-    background-color: #ddbc95;
+    height: 250px;
+    background: linear-gradient(#faf8f5,#cdcdc0);
     font-family: Arimo, sans-serif;
+    
 }
 
 nav {
-    height: 100px;
+    
     font-family: Arimo, sans-serif;
-    margin-top: 5%;
+    margin-bottom: 5px;
+    
 }
 
 
 
 .containerMain {
     padding: 2%;
+    margin-bottom: 2rem;
     font-family: Rambla, sans-serif;
-    text-align: justify;  
+    text-align: justify; 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 body {
-    background-color: #cdcdc0;
+    background: linear-gradient(#cdcdc0,#b38867);
+    border: 3px solid #626d71;
 }
 
 .footerStyle {
     
-    background-color: #b38867;
+    background: linear-gradient(#b38867,#633f24);
     text-align: center;
-    padding: 5%;
+    padding: 2%;
     font-size: 0.8em;
 }
 
 .titlestyle {
+    
     font-family: "Maven Pro", sans-serif;
     font-size: 2.5em;
     text-align: center;
+    margin-bottom: 3rem;
+    color:#633f24;
+    text-shadow: -1px 0 0 
+    rgba(0, 0, 0, 0.8), 
+                 1px 0 0 
+    rgba(0, 0, 0, 0.8),
+                 0 -1px 0 
+    rgba(0, 0, 0, 0.8),
+                 0 1px 0 
+    rgba(0, 0, 0, 0.8);
 }
 
 .carousel {
@@ -64,17 +80,26 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 5px;
+    background-color: #cdcdc0;
 }
 
 @media only screen and (min-width: 768px) {
+    body{
+      font-size: 1.3em;
+    }
+
     .card {
       width: 35%;
       margin-top: 40px;
     }
 
     .bgcolorevent {
-        background-image: url(images/image-de-font-2.png);
-        background-repeat: no-repeat;
-        background-position:50% 50%;
+      background-image: url(images/image-de-font-2.png);
+      background-repeat: no-repeat;
+      background-position:50% 50%;
+    }
+
+    .titlestyle {
+      letter-spacing: 5px;
     }
   }
